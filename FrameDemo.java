@@ -47,9 +47,9 @@ public class FrameDemo {
         //Create and set up the window.
         JFrame frame = new JFrame("FrameDemo");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
- 
-        JLabel emptyLabel = new JLabel("");
-        emptyLabel.setPreferredSize(new Dimension(175, 100));
+        frame.setSize(1920,1080);
+        JLabel emptyLabel = new JLabel("hello world");
+        emptyLabel.setPreferredSize(new Dimension(600, 800));
         frame.getContentPane().add(emptyLabel, BorderLayout.CENTER);
  
         //Display the window.
